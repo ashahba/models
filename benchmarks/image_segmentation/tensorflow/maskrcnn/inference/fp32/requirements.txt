@@ -6,10 +6,11 @@ cython
 matplotlib
 scikit-image
 intel-tensorflow==1.15.2
-keras==2.0.8
+keras==2.6.0rc3
 opencv-python
 h5py==2.10.0
 imgaug
 IPython[all]
 
 pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+networkx>=2.6 # not directly required, pinned by Snyk to avoid a vulnerability
